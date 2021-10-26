@@ -16,4 +16,14 @@ class Ninja{
         return `Name: ${this.name}, strength: ${this.strength}, speed: ${this.speed}, health: ${this.health}`
     }
 }
-module.exports = Ninja;
+class Sensei extends Ninja{
+    constructor(name){
+        super(name)
+        this.wisdom = 10;
+    }
+    speakWisdom(){
+        this.drinkShake()
+        return "What one programmer can do in one month, two programmers can do in two months"
+    }
+}
+module.exports = {Ninja, Sensei};
