@@ -1,0 +1,15 @@
+{
+  "name": "superninja",
+  "version": "1.0.0",
+  "description": "sample OOP test",
+  "main": "superNinja.js",
+  "dependencies": {
+    "jest": "^27.3.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "",
+  "license": "ISC"
+}
